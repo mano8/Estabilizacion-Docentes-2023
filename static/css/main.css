@@ -1,0 +1,34 @@
+body {
+    background-color: black;
+    color: whitesmoke;
+}
+
+h1{
+    font-size: 2.2rem;
+}
+select, input{
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-black-rgb), var(--bs-bg-opacity)) !important;
+}
+.dataTables_paginate > ul.pagination > li{
+    --bs-bg-opacity: 1;
+    --bs-pagination-bg: rgba(var(--bs-black-rgb), var(--bs-bg-opacity)) !important;
+    --bs-pagination-color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+
+    --bs-pagination-hover-bg: rgba(var(--bs-black-rgb), var(--bs-bg-opacity)) !important;
+    --bs-pagination-hover-color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+
+    --bs-pagination-focus-bg: rgba(var(--bs-gray-100), var(--bs-bg-opacity)) !important;
+    --bs-pagination-focus-color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+    --bs-pagination-focus-box-shadow: rgba(var(--bs-info), var(--bs-border-opacity)) !important;
+
+    --bs-pagination-active-bg: rgba(var(--bs-gray-200), var(--bs-bg-opacity)) !important;
+    --bs-pagination-active-color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+    --bs-pagination-active-border-color: rgba(var(--bs-info), var(--bs-border-opacity)) !important;
+
+    --bs-pagination-disabled-bg: rgba(var(--bs-black-rgb), var(--bs-bg-opacity)) !important;
+    --bs-pagination-disabled-color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+    --bs-pagination-disabled-border-color: rgba(var(--bs-white-rgb), var(--bs-border-opacity)) !important;
+}
